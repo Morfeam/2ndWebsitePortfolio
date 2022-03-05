@@ -1,0 +1,201 @@
+body{
+    overflow-x: hidden; /* Hide vertical scrollbar */
+    background-color:#c4d8c5;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .navColor{
+    background-color: #4c4444;
+  }
+
+  .navBrand{
+    border-bottom: 0px solid rgb(255, 204, 110);
+  }
+
+  .navBrand:hover {
+    font-size: 20px;
+    border-bottom: 5px solid rgb(255, 204, 110);
+    transition-duration: 0.6s;
+  }
+
+  .navItem{
+    border-bottom: 0px solid rgb(255, 204, 110);
+  }
+
+  .navItem:hover {
+    font-size: 16px;
+    border-bottom: 3px solid rgb(255, 204, 110);
+    transition-duration: 0.6s;
+  }
+
+  .buttonColor{
+    color:rgb(255, 204, 110);;
+    border: 2px solid rgb(255, 204, 110);
+    border-radius: 5px;
+  }
+
+  .buttonColor:hover{
+    background-color: rgb(255, 204, 110);
+    color:black;
+    border: 2px solid rgb(255, 204, 110);
+    transition-duration: 0.3s;
+  }
+
+  .navLeftSpace{
+    margin-left: 10%;  
+  }
+
+  .navRightSpace{
+    margin-right: 10%;  
+  }
+
+  .btn-space {
+    margin-right: 5px;
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #4c4444;
+    color: whitesmoke;
+    text-align: center;
+  }
+  
+  .contentContainer{
+    text-align:center;
+  }
+
+  .Jumbo1{
+    color:#4c4444;
+    background-color:rgb(255, 204, 110);
+  }
+
+  .Jumbo2{
+    background-color: #e6e1d9;
+    color:#4c4444;
+  }
+
+  .Jumbo3{
+    background-color:	#f5deb3;
+    color:#4c4444;
+  }
+
+  .Jumbo4{
+    background-color:#2F435A;
+    color:#EDF1F2;
+  }
+
+  .Jumbo5{
+    background-color:#e6e1d9;
+    color:#2F435A;
+  }
+
+  .Jumbo6{
+    color:#4c4444;
+    background-color:#c4d8c5;
+  }
+
+  .myBorder{
+    border:solid;
+    border-color:#4c4444;
+    border-width: 1px;
+    border-radius: 2px;
+  }
+
+  .myOtherBorder{
+    border:solid;
+    border-color:#f5deb3;
+    border-width: 1px;
+    border-radius: 2px;
+  }
+
+.myRow{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.myCol{
+  text-align:left;
+  background-color: transparent;
+}
+
+.aboutSubHeaderText{
+  font-size:30px;
+}
+
+.aboutSubText{
+  font-size:18px;
+}
+
+.contactSubText{
+  font-size:22px;
+}
+
+@media only screen and (min-device-width: 400px) {
+  .myContactImage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: auto;
+    border-radius: 3px;
+  }
+}
+
+.myLink{
+  color:#A8BAA9;
+}
+
+.myLink:hover{
+  color:#e6e1d9;
+}
+
+img{
+  object-fit: scale-down; max-width: 100%
+}
+
+.collapseButton{
+  margin-left:20px;
+  margin-top:14px;
+  color:#EDF1F2;
+  background-color:#2F435A;
+}
+
+.collapseButton:hover{
+  color:#4c4444;
+  background-color:#A8BAA9;
+}
+
+.collapseButton:focus,.collapseButton:active {
+  outline: none !important;
+  box-shadow: none;
+}
+
+.devProcessBackground{
+  background-color:#e6e1d9;
+  color:#2F435A;
+}
+
+ul{
+  list-style-type: none;
+}
+
+.border-left-top{
+  border-left:solid;
+  border-top:solid;
+    border-color:#c4d8c5;
+    border-width: 1px;
+    border-radius: 2px;
+}
+
+.border-right-bottom{
+  border-right:solid;
+  border-bottom:solid;
+    border-color:#c4d8c5;
+    border-width: 1px;
+    border-radius: 2px;
+}
